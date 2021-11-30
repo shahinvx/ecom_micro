@@ -39,9 +39,6 @@ In this APP you can get various types of filter for E-commerce.
   -  `Django ORM`  [Click Here](https://docs.djangoproject.com/en/3.2/ref/models/querysets/ "ORM") or go `docs.djangoproject.com/en/3.2/ref/models/querysets`
   -  `Django JWT`  [Click Here](https://django-rest-framework-simplejwt.readthedocs.io/ "JWT") or go `django-rest-framework-simplejwt.readthedocs.io`
 
-## Deployment Issues and Solve
-- You can visit login with your Google account but The chat messages are not delivered to other person, because i use `InMemoryChannelLayer` for this App
-- You can solve this issue by using `Daphne and RedisChannelLayer` (I will use those for my next `asgi` App)
 
 ## Swegger Documentation preview
 
@@ -55,11 +52,8 @@ In this APP you can get various types of filter for E-commerce.
 
 ![Redoc Documentation](/Screen_Doc/home.png)
 
-## Gif of this Google Chat
-<img src="/Screen_Doc/g_chat_app.gif" width="995" height="460"> 
-
-## All View inside APP
-<img src="/Screen_Doc/12.png" width="995" height="460"> 
+## YouTube Link
+[![FIlter](https://img.youtube.com/vi/mKt56RhawSo/0.jpg)](https://www.youtube.com/watch?v=mKt56RhawSo)
 
 #
 ### The MIT License
