@@ -16,19 +16,19 @@
 
 ## About this APP
 
-You Both can Chat by just Log-In with your Google Account.
+In this APP you can get various types of filter for E-commerce.
 
-- User
-  - Get user info from Google API.
-  - Chat with currently login users.
+- Filter
+  - Product Filter by types.
+  - Filter by price range.
+  - Filter by delivery types.
+  - Pagination. 
+  - Breadcrumb. 
+  - Slider.
   
-- Chat
-  - Implement chat using `AsyncWebsocketConsumer` and JS `WebSocket`
-  - `CHANNEL_LAYERS` BACKEND: `channels.layers.InMemoryChannelLayer`
-  - `ASGI_APPLICATION` is `routing.application`
-  
-- Authentication
-  - Google Authentication by Django all-auth
+- JWT Authentication (Coming UP)
+  - User can register.
+  - Login and serve by JWT token Authentication.
   
 - Additional INFO
   - DRF (Django Rest Framework)
@@ -36,8 +36,8 @@ You Both can Chat by just Log-In with your Google Account.
   - Django Templates with ajax and javascript, Django all-auth, Django Channels
 
 - Resources
-  -  `Django all-auth`  [Click Here](https://django-allauth.readthedocs.io/en/latest/ "all-auth") or go `django-allauth.readthedocs.io`
-  -  `Django Channels`  [Click Here](https://channels.readthedocs.io/en/latest/index.html "channels") or go `channels.readthedocs.io`
+  -  `Django ORM`  [Click Here](https://docs.djangoproject.com/en/3.2/ref/models/querysets/ "ORM") or go `docs.djangoproject.com/en/3.2/ref/models/querysets`
+  -  `Django JWT`  [Click Here](https://django-rest-framework-simplejwt.readthedocs.io/ "JWT") or go `django-rest-framework-simplejwt.readthedocs.io`
 
 ## Deployment Issues and Solve
 - You can visit login with your Google account but The chat messages are not delivered to other person, because i use `InMemoryChannelLayer` for this App
