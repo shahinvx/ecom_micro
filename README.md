@@ -28,12 +28,12 @@ In this APP you can get various types of filter for E-commerce.
   
 - JWT Authentication (Coming UP)
   - User can register.
-  - Login and serve by JWT token Authentication.
+  - Login and served by JWT token Authentication.
   
 - Additional INFO
-  - DRF (Django Rest Framework)
-  - Swagger and Redoc for Documentation
-  - Django Templates with ajax and javascript, Django all-auth, Django Channels
+  - DRF (Django Rest Framework).
+  - Swagger and Redoc for Documentation.
+  - Django Templates with ajax and javascript.
 
 - Resources
   -  `Django ORM`  [Click Here](https://docs.djangoproject.com/en/3.2/ref/models/querysets/ "ORM") or go `docs.djangoproject.com/en/3.2/ref/models/querysets`
